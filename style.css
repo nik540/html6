@@ -1,3 +1,9 @@
 body {
     font-size: 15pt;
+    color: darkslategray;
+}
+q,
+blockquote {
+    background: lightseagreen;
+    color: darkolivegreen;
 }
