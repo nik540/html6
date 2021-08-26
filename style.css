@@ -1,6 +1,7 @@
 body {
     font-size: 15pt;
     color: darkslategray;
+    background: lime ;
 }
 q,
 blockquote {
@@ -8,3 +9,7 @@ blockquote {
     color: darkolivegreen;
 }
 /* коментарий */
+.date {
+    color: orange;
+}
+    
