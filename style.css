@@ -11,5 +11,12 @@ blockquote {
 .date {
     color: orange;
 }
-    
+#targline { color: navy;} 
+/*nav a {
+    color: red;
+}*/
+nav a:hover {
+    color: red;
+}
+
 /*коментарий*/
