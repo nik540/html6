@@ -1,15 +1,15 @@
 body {
     font-size: 15pt;
     color: darkslategray;
-    background: lime ;
+    background: antiquewhite;
 }
 q,
 blockquote {
     background: lightseagreen;
     color: darkolivegreen;
 }
-/* коментарий */
 .date {
     color: orange;
 }
     
+/*коментарий*/
