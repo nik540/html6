@@ -33,9 +33,9 @@ blockquote {
     nav a {
     color: red;
 }*/
-nav a:hover {
+ nav a:hover {
     color: red; /*цвет ссылки при наведении*/
 }
-.deleted { text-decoration: line-through;} /*text-decoration 
-     добавляет линию*/
-/*коментарий*/
+ .deleted { text-decoration: line-through;} /*text-decoration добавляет линию*/
+
+ /*коментарий*/
