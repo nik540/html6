@@ -23,11 +23,12 @@ h2 {
 }
 
 blockquote {
-    background: lightseagreen;
-    color: darkolivegreen;
+    background: rgb(153, 187, 185);
+    color: rgb(47, 107, 89);
     text-indent: 40px;/*пространство перед первой буквой*/
     padding: 20px; /*сдвиг блока текста*/
-}
+    border: 2px solid yellow;
+}/* длинная цитата, спецсимволы */
 
 .date{
     color: orange;
