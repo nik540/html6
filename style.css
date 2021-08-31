@@ -27,6 +27,7 @@ blockquote {
     color: rgb(47, 107, 89);
     text-indent: 40px;/*пространство перед первой буквой*/
     padding: 20px; /*сдвиг блока текста*/
+    margin: 40px;
     border: 2px solid yellow;
 }/* длинная цитата, спецсимволы */
 
