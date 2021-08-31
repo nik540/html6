@@ -11,32 +11,45 @@ body {
     background-repeat: no-repeat; /*фон только один раз*/
     
 }
+
 h1 {
     text-shadow: 0 2px 5px; /*тень к тексту*/
 }
+
 h2 {
-    font-variant: small-caps; /*текст в капитель*/
+     font-variant: small-caps; /*текст в капитель*/
     font-style: italic; /*курсив*/
     font-weight:100; /*тонкий*/
 }
-q,
+
+
 blockquote {
     background: lightseagreen;
     color: darkolivegreen;
     text-indent: 40px;/*пространство перед первой буквой*/
     padding: 20px; /*сдвиг блока текста*/
 }
-.date {
+
+.date{
     color: orange;
 }
-/*#targline { color: navy;} 
-    nav a {
-    color: red;
-}*/
- nav a:hover {
-    color: red; /*цвет ссылки при наведении*/
-}
- .deleted { text-decoration: line-through;} /*text-decoration добавляет линию*/
 
- /*коментарий*/
-/*коментарий*/
+.element{
+    color:hotpink;
+}
+
+.tipe dd {
+    display: inline;
+}
+
+nav a{
+    display: block; /*изменяет тип элемента*/
+    background-color: cadetblue;
+}
+
+nav a:hover {
+    color: red; /*цвет ссылки при наведении*/
+    /* display: block;  */
+}
+
+.deleted { text-decoration: line-through;} /*text-decoration добавляет линию*/
