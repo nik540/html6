@@ -22,7 +22,6 @@ h2 {
     font-weight:100; /*тонкий*/
 }
 
-
 blockquote {
     background: lightseagreen;
     color: darkolivegreen;
@@ -34,7 +33,7 @@ blockquote {
     color: orange;
 }
 
-.element{
+.element {
     color:hotpink;
 }
 
@@ -52,4 +51,5 @@ nav a:hover {
     /* display: block;  */
 }
 
-.deleted { text-decoration: line-through;} /*text-decoration добавляет линию*/
+.deleted { 
+    text-decoration: line-through;} /*text-decoration добавляет линию*/

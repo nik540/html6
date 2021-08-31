@@ -15,51 +15,60 @@
 <body>
 
   <header>
-    <img src="https://ezgif.com/images/format-demo/butterfly-small.webp" 
-     alt="logo" width="114" height="114">
+    <img src="https://ezgif.com/images/format-demo/butterfly-small.webp" alt="logo" width="114" height="114">
     <h1>Site</h1>
     <h2 id="targline">Site</h2>
   </header>
-  
-  <p>Элемент &lt;q&gt; (от англ. quotation — цитата, кавычки)
-     используется для выделения в тексте цитат. 
-     Содержимое контейнера автоматически отображается 
-     в браузере в кавычках.</p>
-     
-  <p>В одних садах цветёт миндаль, в других метёт метель.</p>
-  <p>В одних краях ещё февраль, в других — уже апрель.</p>
-  <p>Проходит время, вечный счёт: год за год, век за век...</p>
-  <p>Во всём — его неспешный ход, его кромешный бег.</p>
-  <p>В году на радость и печаль по двадцать пять недель.</p>
-  <p>Мне двадцать пять недель февраль, и двадцать пять — апрель.</p>
-  <p>По двадцать пять недель в туман уходит счёт векам.</p>
-  <p>Летит мой звонкий балаган куда-то к облакам.</p>
-  <p style="color: rebeccapurple;">М. Щербаков</p>
+
+  <section>
+    <q class="element">Элемент &lt;q&gt; (от англ. quotation — цитата, кавычки)
+      используется для выделения в тексте цитат.
+      Содержимое контейнера автоматически отображается
+      в браузере в кавычках.
+    </q><!-- цитата -->
+    <p>В одних садах цветёт миндаль, в других метёт метель.</p>
+    <p>В одних краях ещё февраль, в других — уже апрель.</p>
+    <p>Проходит время, вечный счёт: год за год, век за век...</p>
+    <p>Во всём — его неспешный ход, его кромешный бег.</p>
+    <p>В году на радость и печаль по двадцать пять недель.</p>
+    <p>Мне двадцать пять недель февраль, и двадцать пять — апрель.</p>
+    <p>По двадцать пять недель в туман уходит счёт векам.</p>
+    <p>Летит мой звонкий балаган куда-то к облакам.</p>
+    <p style="color: rebeccapurple;">М. Щербаков</p>
+  </section><!-- цитата -->
+
   <blockquote>
-  <p>Как видно из приведённого рисунка, при использовании элемента &lt;br>&gt;
-    между абзацами возникают отступы. От них можно избавиться,<br>
-    если в местах переноса строк добавить элемент&lt;br&gt;.
-    В отличие от абзаца,<br>
-    не создаёт дополнительных вертикальных отступов между строк<br>
-    и может применяться практически в любом тексте.></p>
-  </blockquote>
+    <p>Как видно из приведённого рисунка, при использовании элемента &lt;br>&gt;
+      между абзацами возникают отступы. От них можно избавиться,<br>
+      если в местах переноса строк добавить элемент&lt;br&gt;.
+      В отличие от абзаца,<br>
+      не создаёт дополнительных вертикальных отступов между строк<br>
+      и может применяться практически в любом тексте.></p>
+
+
+  </blockquote><!--длинная цитата, спецсимволы-->
+
+  <section>
     <p>H<sub>2</sub>SO<sub>4</p>
-  <p>ax<sup>2</sup>+bx+c</p>
-  <p>&lt;
-  <p>1975&nbsp;y
-  <p>1975&shy;y
+    <p>ax<sup>2</sup>+bx+c</p>
+    <p>&lt;</p>
+    <p>1975&nbsp;y</p>
+    <p>1975&shy;y</p>
+  </section><!-- Верхний и нижний индексы -->
+
   <nav>
-  <p><a href="https://webref.ru/html">site</a></p>
-  <p><a href="https://facebook.com">Facebook</a></p>
-  <p><a href="//webref.ru" targwt="_https://webref.ru/course/html-tutorial/anchorblank">web</a></p>
-  <p><a href="https://i.gifer.com/AYUm.gif" download>download</a></p>
-  <p><a href="mailto:to.aleksandr.nik@gmail.com">mail</a></p>
-  <p><a href="tel:+380501094877">tel</a></p>
-  <id="top">
-    <p><a href="#top">UP</a></p>
-    <p><a href="https://webref.ru/course/html-tutorial/anchor">web1</a></p>
-  </nav>
-  
+    <p><a href="https://webref.ru/html">site</a></p>
+    <p><a href="https://facebook.com">Facebook</a></p>
+    <p><a href="//webref.ru" targwt="_https://webref.ru/course/html-tutorial/anchorblank">web</a></p>
+    <p><a href="https://i.gifer.com/AYUm.gif" download>download</a></p>
+    <p><a href="mailto:to.aleksandr.nik@gmail.com">mail</a></p>
+    <p><a href="tel:+380501094877">tel</a></p>
+    <id="top">
+      <p><a href="#top">UP</a></p>
+      <p><a href="https://webref.ru/course/html-tutorial/anchor">web1</a></p>
+  </nav><!-- ссылки -->
+
+  <section>
     <p>marker</p>
     <ul>
       <li>1</li>
@@ -76,60 +85,63 @@
         </ul>
       </li>
     </ul>
+  </section><!-- списки -->
 
-    <ol reversed type="I" start="7">
-      <li>1
-      <li value="22"> 2
-      <li>3
-    </ol>
+  <ol reversed type="I" start="7">
+    <li>1
+    <li value="22"> 2
+    <li>3
+  </ol>
 
-    <dl>
-      <dt> 1 termin
-      <dd> description
-      <dt> 2 termin
-      <dd> description
-    </dl>
+  <dl class="tipe">
+    <dt> 1 termin
+    <dd> description1</dd>
+    <dd>description2</dd>
+    <dt> 2 termin</dt>
+    <dd> description</dd>
+  </dl>
 
-    <p> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLxJgP_I2JdGT0uGj3JaYsDBhvydrWyHVpyQ&usqp=CAU"
-        width="200" height=200 alt="address" title="CAT"> </p>
+  <p> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLxJgP_I2JdGT0uGj3JaYsDBhvydrWyHVpyQ&usqp=CAU"
+      width="200" height=200 alt="address" title="CAT"> </p>
 
-    <table border="2">
-      <caption>Table
-      <tr>
-        <th>cell 1
-        <th>cell 2
-        <th>cell 3
-        <th rowspan="2">cell 4
-      </tr>
-      <tr>
-        <td colspan="2"> cell 5
-        <td>
-        <td>
-      </tr>
-    </table>
+  <table border="2">
+    <caption>Table
+    <tr>
+      <th>cell 1
+      <th>cell 2
+      <th>cell 3
+      <th rowspan="2">cell 4
+    </tr>
+    <tr>
+      <td colspan="2"> cell 5
+      <td>
+      <td>
+    </tr>
+  </table>
 
-    <p>
-    <form>
-      <input name "a"> <input type="submit">
-    </form>
-    </p>
+  <p>
+  <form>
+    <input name "a"> <input type="submit">
+  </form>
+  </p>
 
-    <form action="mailto:to.aleksandr.nik@gmail.com" enctype="text/plain">
-      <p><input name="a"> <input type="submit"></p>
-    </form>
+  <form action="mailto:to.aleksandr.nik@gmail.com" enctype="text/plain">
+    <p><input name="a"> <input type="submit"></p>
+  </form>
 
-    <form action="hardler.php">
-      <p><input name="login"> <input type="password" name="pass"></p>
-      <p><input type="submit"></p>
-    </form>
-    <p><iframe name="area" width="500" height="200">
-      </iframe></p>
+  <form action="hardler.php">
+    <p><input name="login"> <input type="password" name="pass"></p>
+    <p><input type="submit"></p>
+  </form>
+  <p><iframe name="area" width="500" height="200">
+    </iframe></p>
 
-    <form action="hander.php" taget="area">
-      <p><input placeholder="Ввести текст" name="text"> </p>
-      <p><input type="submit" value="Отправить"></p>
-    </form>
+  <form action="hander.php" taget="area">
+    <p><input placeholder="Ввести текст" name="text"> </p>
+    <p><input type="submit" value="Отправить"></p>
+  </form>
 
+  <section>
     <form id="auth" action="handler.php" method="post">
     </form>
     <p>...</p>
@@ -137,91 +149,95 @@
       <input type="password" name="pass" form="auth">
     </p>
     <p><input type="submit" form="auth"></p>
+  </section>
 
-    <form>
-      <p><input placeholder="Ваше имя" name="user"></p>
-      <p><input type="submit" val+ue="Отправить" formaction="handler.php" formmrthot="post"></P>
-    </form>
+  <form>
+    <p><input placeholder="Ваше имя" name="user"></p>
+    <p><input type="submit" val+ue="Отправить" formaction="handler.php" formmrthot="post"></P>
+  </form>
 
-    <form>
-      <p><strong>Назовите Ваше имя?</strong></p>
-      <p><input name="name" maxlength="25" size="40" value="Александр"></p>
-    </form>
+  <form>
+    <p><strong>Назовите Ваше имя?</strong></p>
+    <p><input name="name" maxlength="25" size="40" value="Александр"></p>
+  </form>
 
-    <form>
-      <p><strong>Введите ваш город</strong></p>
-      <p><input name="city" list="city"></p>
-    </form>
-    <datalist id="city">
-      <option>Днепр</option>
-      <option>Киев</option>                          
-      <option>Харьков</option>
-    </datalist>
+  <form>
+    <p><strong>Введите ваш город</strong></p>
+    <p><input name="city" list="city"></p>
+  </form>
 
-    <form action="handler.php">
-      <p><strong>Логин</strong>
-        <input maxlength="25" size="40" name="login">
-      </p>
-      <p><strong>Пароль</strong>
-        <input maxlength="25" size="40" name="password">
-      </p>
-    </form>
+  <datalist id="city">
+    <option>Днепр</option>
+    <option>Киев</option>
+    <option>Харьков</option>
+  </datalist>
 
-    <form action="handler.php">
-      <p><strong>Введите ваш отзыв</strong></p>
-      <p><textarea name="comment"></textarea></p>
-      <p><input type="submit"></p>
-    </form>
+  <form action="handler.php">
+    <p><strong>Логин</strong>
+      <input maxlength="25" size="40" name="login">
+    </p>
+    <p><strong>Пароль</strong>
+      <input maxlength="25" size="40" name="password">
+    </p>
+  </form>
 
-    <form action="handler.php">
-      <p><strong>Отредактируйте ваш отзыв</strong></p>
-      <p><textarea name="edit" rows="3" cols="30">
+  <form action="handler.php">
+    <p><strong>Введите ваш отзыв</strong></p>
+    <p><textarea name="comment"></textarea></p>
+    <p><input type="submit"></p>
+  </form>
+
+  <form action="handler.php">
+    <p><strong>Отредактируйте ваш отзыв</strong></p>
+    <p><textarea name="edit" rows="3" cols="30">
       КГ/АМ
       ВЫПЕЙ йаду
     </textarea></p>
-      <p><input type="submit"></p>
-    </form>
+    <p><input type="submit"></p>
+  </form>
 
-    <form>
-      <p><input type="button" value="Нажми меня" </p>
-    </form>
+  <form>
+    <p><input type="button" value="Нажми меня" </p>
+  </form>
 
-    <form>
-      <p><button>Кнопка с текстом</button>
-        <button>
-          <img src="https://ezgif.com/images/format-demo/butterfly-small.webp" alt="" style="vertical-align:midle">
-          Кнопка с рисунком
-        </button>
-      </p>
-    </form>
+  <form>
+    <p><button>Кнопка с текстом</button>
+      <button>
+        <img src="https://ezgif.com/images/format-demo/butterfly-small.webp" alt="" style="vertical-align:midle">
+        Кнопка с рисунком
+      </button>
+    </p>
+  </form>
 
-    <form>
-      <p><input name="login"></p>
-      <p><input type="submit"></p>
-    </form>
+  <form>
+    <p><input name="login"></p>
+    <p><input type="submit"></p>
+  </form>
 
-    <form>
-      <p><input value="Введите текст"></p>
-      <p><input type="submit">
-        <input type="reset">
-      </p>
-    </form>
+  <form>
+    <p><input value="Введите текст"></p>
+    <p><input type="submit">
+      <input type="reset">
+    </p>
+  </form>
 
-    <form>
-      <p><b>Какое у вас состояние разума</b></p>
-      <p><input name="dzen" type="radio" value="nedzen"> Не дзен</p>
-      <p><input name="dzen" type="radio" value="dzen"> дзен</p>
-      <p><input name="dzen" type="radio" value="pdzen" checked> Полный дзен</p>
-      <p><input type="submit" value="Выбрать" </p>
-    </form>
+  <form>
+    <p><b>Какое у вас состояние разума</b></p>
+    <p><input name="dzen" type="radio" value="nedzen"> Не дзен</p>
+    <p><input name="dzen" type="radio" value="dzen"> дзен</p>
+    <p><input name="dzen" type="radio" value="pdzen" checked> Полный дзен</p>
+    <p><input type="submit" value="Выбрать" </p>
+  </form>
 
+  <footer>
     <p class="date"> 26.09.21 </p>
     <em class="date">субота</em>
     <p class="deleted">Удалено</p>
     <p>End</p>
-   
-    <!-- Project -->
-    <script src="main.js"></script>
+  </footer>
+
+  <!-- Project -->
+  <script src="main.js"></script>
 
 </body>
 
